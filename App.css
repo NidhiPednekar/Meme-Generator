@@ -31,6 +31,32 @@ header h4{
   font-weight: 400;
 }
 
+.container{
+  margin:20px;
+  padding: 30px;
+  height:auto;
+  width:60%;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template:40px 40px / 1fr 1fr;
+  gap:50px;
+}
 
+.container input{
+  height:40px;
+  width:100%;
+  font-size: large;
+
+}
+.genMeme{
+  background: linear-gradient(90deg,rgb(158, 42, 0),rgb(233, 106, 15));
+  color:white;
+  font-size: 30px;
+  padding: 15px;
+  width:100%;
+  height:60px;
+  grid-column: 1/-1;
+}
 
 
