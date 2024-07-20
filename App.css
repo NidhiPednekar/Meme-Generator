@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+}
+header{
+  background:linear-gradient(90deg,rgb(158, 42, 0),rgb(233, 106, 15));
+  height:80px;
+  padding: 20px 30px;
+  margin: 0;
+  color:white;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+header img{
+  height:60px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+
+.header-title{
+  margin-right: auto;
+}
+
+header h4{
+  font-weight: 400;
+}
+
+
+
+
