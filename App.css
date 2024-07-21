@@ -53,6 +53,7 @@ header h4{
   border-radius:5px;
   
 }
+
 .genMeme{
   background: linear-gradient(90deg,rgb(158, 42, 0),rgb(233, 106, 15));
   color:white;
@@ -65,5 +66,20 @@ header h4{
   cursor: pointer;
   margin-top: 50px;
 }
+
+.meme-image{
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
