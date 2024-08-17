@@ -68,18 +68,29 @@ header h4{
 }
 
 .meme-image{
-  max-width: 100%;
+  max-width: 800px;
+  max-height:800px;
+  text-align: center;
 }
 
+.meme {
+  position: relative;
+  text-align: center;
+}
 
+.meme--text {
+  position: absolute;
+  width: 100%;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  padding: 0 20px;
+}
 
+.top {
+  top: 10px;
+}
 
-
-
-
-
-
-
-
-
-
+.bottom {
+  bottom: 10px;
+}
